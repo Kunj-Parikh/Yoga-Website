@@ -1,0 +1,29 @@
+#links {
+    background-color: #333;
+    overflow: hidden;
+}
+a {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    font-size: large;
+    font-family:'Lucida Sans Unicode';
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    background-color: rgb(31, 29, 32);
+    cursor:pointer; 
+}
+body {
+    margin: 0;
+}
+.covers {
+    display: none;
+}
+.active {
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    color:sienna;
+}
